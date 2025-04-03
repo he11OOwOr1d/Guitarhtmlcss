@@ -41,66 +41,82 @@ body.addEventListener('keypress', function(event){
 
     if (event.key == 'a') {
       f.style.backgroundColor = 'orange'
+      sound1.currentTime = 0.3
       sound1.play()
     }
     if (event.key == 's') {
       fsharp.style.backgroundColor = 'green'
+      sound2.currentTime = 0.3
       sound2.play()
     }
     if (event.key == 'd') {
       g.style.backgroundColor = 'blue'
+      sound3.currentTime = 0.3
       sound3.play()
     }
     if (event.key == 'f') {
       gsharp.style.backgroundColor = 'red'
+      sound4.currentTime = 0.3
       sound4.play()
     }
     if (event.key == 'g') {
       c.style.backgroundColor = 'pink'
+      sound5.currentTime = 0.3
       sound5.play()
     }
     if (event.key == 'h') {
       csharp.style.backgroundColor = 'purple'
+      sound6.currentTime = 0.3
       sound6.play()
     }
     if (event.key == 'j') {
       d.style.backgroundColor = 'aqua'
+      sound7.currentTime = 0.3
       sound7.play()
     }
     if (event.key == 'k') {
       dsharp.style.backgroundColor = 'skyblue'
+      sound8.currentTime = 0.3
       sound8.play()
     }
     if (event.key == 'l') {
       b.style.backgroundColor = 'yellow'
+      sound9.currentTime = 0.3
       sound9.play()
     }
     if (event.key == 'q') {
       bsharp.style.backgroundColor = 'aquamarine'
+      sound10.currentTime = 0.3
       sound10.play()
     }
     if (event.key == 'w') {
       a.style.backgroundColor = 'silver'
+      sound3.currentTime = 0.3
       sound3.play()
     }
     if (event.key == 'e') {
       gsharpag.style.backgroundColor = 'silver'
+      sound2.currentTime = 0.3
       sound2.play()
     }
     if (event.key == 'r') {
       fag.style.backgroundColor = 'silver'
+      sound1.currentTime = 0.3
       sound1.play()
     }
     if (event.key == 't') {
       fsharpag.style.backgroundColor = 'silver'
+      sound4.currentTime = 0.3
       sound4.play()
     }
     if (event.key == 'y') {
       dsharphash.style.backgroundColor = 'silver'
-      sound4.play()
+      sound6.currentTime = 0.3
+      sound6.play()
     }
     if (event.key == 'u') {
       e.style.backgroundColor = 'silver'
+      sound9.currentTime = 0.3
       sound9.play()
     }
     
